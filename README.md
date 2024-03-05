@@ -4,11 +4,17 @@ These notebooks allow you to take a country's population data and create a datas
 
 I have used them to create equal population maps for Austria, but by changing the input data, the code can be used for any country or any other type of administrative area.
 
+![Austria](/figures/equal_population_austria_flag_en.png "Austria")
+
 ## How to Use
 
-After downloading the input data, use the Jupyter notebook "./notebooks/1-processing.ipynb" to prepare the dataset. The dataset can then be used in "./notebooks/2-create_map.ipynb" to create the resulting map. The last section of the file can also be used to create files for animations.
+After downloading the input data, Use the Jupyter notebook _"./notebooks/1-processing.ipynb"_ to prepare the dataset. This also describes which input data you need to download. The dataset can then be used in _"./notebooks/2-create_map.ipynb"_ to create the resulting map.
 
-The result is saved in "./data/result/country_splitted.gpkg", which can be opened with GIS software such as QGIS.
+The last section of the file can be used to create files for animations like below.
+
+![Animation](/figures/equal_population_austria_animated_en.gif "Animation")
+
+The result is saved in _"./data/result/country_splitted.gpkg"_, which can be opened with GIS software such as QGIS.
 
 ## Sources
 
